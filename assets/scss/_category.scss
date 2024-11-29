@@ -1,0 +1,49 @@
+/*
+	4. category
+*/
+
+.category{
+    &__area{
+        &-1{
+            padding: 100px 0;
+        }
+    }
+}
+.category{
+    transition: .3s linear;
+    &:hover{
+        transform: translateY(-15px);
+    }
+    &__wrapper{
+        &-1{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    max-width: 352px;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid var(--gray-1);
+    }
+    &__dis{
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--gray-2);
+        padding-top: 30px;
+    }
+    &__count{
+        font-weight: 700;
+        font-size: 22px;
+        font-family: $bodyFont;
+        color: var(--primary);
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 32px;
+        color: var(--black-2);
+    }
+}

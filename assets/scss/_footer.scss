@@ -1,0 +1,54 @@
+/*
+	14. footer
+*/
+
+
+.contact_two {
+    padding: 15px 0;
+}
+.categories{
+    h4{
+        color: var(--black-2);
+        font-weight: 600;
+    }
+}
+.categories_list{
+    li{
+        margin-bottom: 7px;
+        a{
+            text-transform: capitalize;
+        }
+    }
+}
+.copyright_text{
+    background: linear-gradient(94.16deg, #FF451B -32.52%, #FFB324 134.52%);
+    padding: 70px 0;
+    p{
+        margin-bottom: 0;
+        color: var(--white);
+    }
+}
+.google-map{
+    margin-bottom: -6px;
+}
+.social__menu{
+    li{
+        display: inline-block;
+        margin-right: 20px;
+        &:last-child{
+            margin-right: 0;
+        }
+        a{
+            color: var(--white);
+            display: inline-block;
+            &:hover{
+                color: var(--primary);
+            }
+        }
+    }
+}
+.copyright__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

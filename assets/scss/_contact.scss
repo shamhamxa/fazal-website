@@ -1,0 +1,79 @@
+/*
+	13. map
+*/
+
+.contact{
+    &__area{
+        &-1{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: linear-gradient(94.16deg, #FF451B -32.52%, #FFB324 134.52%);;
+        }
+    }
+    &__wrapper{
+        max-width: 715px;
+    }
+}
+.social{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    &:hover{
+        .social__icon{
+            background-color: var(--primary);
+            color: var(--white);
+        }
+    }
+  &__icon{
+    display: inline-block;
+    width: 89px;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    background-color: var(--white);
+    border-radius: 50px;
+    font-size: 30px;
+    margin-right: 20px;
+    transition: .3s;
+  }
+  &__phone * {
+    color: var(--white);
+    h4{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+    }
+  }  
+}
+.field-wrapper{
+    margin-bottom: 15px;
+    input, textarea{
+        height: 50px;
+        padding: 15px;
+        width: 100%;
+        border-radius: 6px;
+        border: 0;
+        &:focus{
+            outline: 1px solid var(--secondary);
+        }
+    }
+    textarea{
+        height: 170px;
+    }
+    input[type=submit]{
+        background-color: #0F172A;
+        color: var(--white);
+        transition: .3s;
+        &:hover{
+            background-color: var(--primary);
+            border: 0;
+            outline: 0;
+        }
+    }
+}
+.swiper.testimonial-active.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    max-width: 470px;
+    overflow: hidden;
+}
